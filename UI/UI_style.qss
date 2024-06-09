@@ -1,0 +1,71 @@
+QWidget {
+    background-color: transparent;  /* Transparent background */
+    font-family: Arial, sans-serif;
+    color: #282942; /* Slightly darker text color */
+}
+
+QLabel {
+    font-size: 18px; /* Font size */
+    padding: 15px;   /* Wider spacing */
+}
+
+QPushButton {
+    background-color: #1B3887; /* Dark blue background */
+    color: #F5F5F9;            /* Light gray text */
+    border: none;
+    padding: 12px 24px;        /* Larger buttons */
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;         /* Bold text */
+    height: 45px;
+    width: 100px;
+    margin: 6px 3px;           /* Larger spacing */
+    border-radius: 10px;       /* More rounded buttons */
+}
+
+QPushButton:hover {
+    background-color: #F15B5D; /* Light orange hover */
+    border: 2px solid #EF8B70;
+    color: #F5F5F9;            /* Light text color hover */
+}
+
+QDialog {
+    background-image: url(img/background3.png);
+}
+
+QVBoxLayout, QHBoxLayout {
+    margin: 10px; /* More spacing */
+    padding: 0;
+}
+
+#restaurant_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Vertical and horizontal scrollbars */
+QScrollBar:vertical {
+    border: none;                /* Border for the scrollbar */
+    background: transparent;     /* Background color of the scrollbar */
+    width: 15px;                 /* Width of the scrollbar */
+    margin: 20px 0 20px 0;       /* Margin between the scrollbar and the container */
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background: #1B3887;         /* Background color of the handle */
+    min-height: 30px;            /* Minimum height of the handle */
+    border-radius: 20px;         /* Rounded corners of the handle */
+}
+
+QScrollBar::add-line:vertical, QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:vertical, QScrollBar::sub-line:horizontal {
+    border: none;                /* Border for the arrows */
+    height: 0px;                 /* Hide the arrows */
+    subcontrol-position: bottom; /* Adjust the arrow position */
+    subcontrol-origin: margin;   /* Hide the arrows */
+}
+
+QScrollBar::handle:vertical:hover, QScrollBar::handle:horizontal:hover {
+    background: #F15B5D;
+}
