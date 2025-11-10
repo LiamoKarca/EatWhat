@@ -1,5 +1,7 @@
 # EatWhat
-It can capture restaurants currently operating in nearby locations and randomly select a restaurant to provide suggestions on what to eat, and can open Google Map for restaurant locations.
+In our busy daily lives, choosing what to eat for each meal has become a common dilemma. With the pressure of work and life, and surrounded by countless restaurants and food options, people often struggle with the three big questions: “What should I eat for breakfast?”, “What should I eat for lunch?”, and “What should I eat for dinner?”
+
+To address this problem, the system can capture restaurants that are currently operating in nearby locations and randomly select one to provide meal suggestions. It can also open Google Maps to show the restaurant’s location, helping users make quick and effortless dining decisions.
 
 ## Table of Contents
 
