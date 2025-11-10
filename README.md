@@ -105,6 +105,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions or suggestions, please feel free to contact the project maintainer:
 
 - **Email**: npustb11156057@gmail.com
-- **GitHub**: [LiamoKarca](https://github.com/LiamoKarca) [LiYuTsen]((https://github.com/Tsen01))
+- **GitHub**: [LiamoKarca](https://github.com/LiamoKarca) [LiYuTsen](https://github.com/Tsen01)
 
 ---
